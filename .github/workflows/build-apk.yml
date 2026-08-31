@@ -29,11 +29,11 @@ jobs:
           gradle-version: 8.7
 
       - name: Compilar APK de depuración (debug)
-        run: gradle :app:assembleDebug --stacktrace
+        run: gradle :appv2:assembleDebug --stacktrace
 
       - name: Publicar el APK como resultado descargable
         uses: actions/upload-artifact@v4
         with:
           name: checkin-bimodal-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
+          path: appv2/build/outputs/apk/debug/*.apk
           if-no-files-found: error
