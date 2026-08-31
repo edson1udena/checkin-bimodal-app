@@ -33,7 +33,7 @@ si tu Android Studio instalado es distinto al que se asumió aquí (ver "Version
 ## Estructura del proyecto
 
 ```
-app/src/main/java/com/incarail/checkinbimodal/
+appv2/src/main/java/com/incarail/checkinbimodal/
   MainActivity.kt              → entrada de la app y navegación (Login, Frecuencias, Pasajeros,
                                   Tripulación, Ficha, Resumen)
   data/

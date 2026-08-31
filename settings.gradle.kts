@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "CheckinBimodal"
-include(":app")
+include(":appv2")
