@@ -92,6 +92,7 @@ fun LoginScreen(onLoggedIn: () -> Unit) {
 }
 
 /** Pantalla 2 — Frecuencias del día asignadas al colaborador. */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FrequencyListScreen(viewModel: CheckinViewModel, onSelect: (Frequency) -> Unit) {
     LaunchedEffect(Unit) { viewModel.loadFrequencies() }
